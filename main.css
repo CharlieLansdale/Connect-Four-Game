@@ -1,0 +1,43 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rebeccapurple;
+}
+
+h1 {
+  text-decoration: underline;
+  color: seagreen;
+}
+
+.grid {
+  border: 18px solid blue;
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  height: 426px;
+  width: 497px;
+}
+
+.grid div {
+  height: 71px;
+  width: 71px;
+}
+
+.selector-button{
+
+}
+
+.player-one {
+  background-color: red;
+  border-radius: 40px;
+}
+
+.player-two {
+  background-color: yellow;
+  border-radius: 40px;
+} 
+
+.reset-button {
+  margin-top: 20px;
+  background-color: lightcoral;
+}
